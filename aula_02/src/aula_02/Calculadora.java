@@ -15,7 +15,7 @@ public class Calculadora {
 		numero2 = leia.nextDouble();
 		
 		System.out.println("Soma: " + (numero1 + numero2));
-		System.out.println("Subtraão: " + (numero1 - numero2));
+		System.out.println("Subtração: " + (numero1 - numero2));
 		System.out.println("Divisão: " + (numero1 / numero2));
 		System.out.println("Multiplicação: " + (numero1 * numero2));
 		System.out.println("Módulo do numero1(resto da divisão): " + (numero1 % numero2));
