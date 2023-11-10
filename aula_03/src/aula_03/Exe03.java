@@ -7,8 +7,6 @@ public class Exe03 {
 		String nomeDoador;
 		int idadeDoador;
 		boolean primeiraDoacao;
-		// Para doar sangue é necessário ter entre 18 e 69 anos de idade. 
-		//Pessoas com idade entre 60 e 69 anos, só podem doar se não for a sua primeira doação.
 		
 		System.out.print("Digite o Nome do doador: ");
 		nomeDoador = leia.nextLine();
