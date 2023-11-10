@@ -2,7 +2,7 @@ package aula_04;
 
 import java.util.Scanner;
 
-/*
+/* Versão com do-while, sem interromper o programa:
 public class Exe01 {
 	static Scanner leia = new Scanner(System.in);
 	
@@ -42,6 +42,7 @@ public class Exe01 {
 
 		System.out.println("Digite o número final: ");
 		numero2 = leia.nextInt();
+		
 		if (numero2 < numero1) {
 			System.out.println("Intervalo inválido!");}
 
