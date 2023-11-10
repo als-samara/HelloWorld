@@ -54,7 +54,7 @@ public class Exe04 {
 		System.out.println("Total de Homens Cis e Trans desenvolvedores Mobile maiores de 40 anos: " + homMobMais40);
 		System.out.println("Total de Pessoas Não Binárias desenvolvedoras FullStack menores de 30 anos: " + nbFullStMenos30);
 		System.out.println("O número total de pessoas que responderam à pesquisa: " + total);
-		System.out.println("A média de idade das pessoas que responderam à pesquisa :" + (mediaIdade/total));
+		System.out.println("A média de idade das pessoas que responderam à pesquisa :" + ((float)mediaIdade/(float)total));
 	}
 
 }
