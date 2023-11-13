@@ -8,7 +8,6 @@ public class Exe01 {
 	public static void main(String[] args) {
 		int[] numeros = { 2, 5, 1, 3, 4, 9, 7, 8, 10, 6 };
 		int numeroProcurado;
-		boolean encontrado = true;
 		
 		System.out.print("Digite o número que você deseja encontrar: ");
 		numeroProcurado = leia.nextInt();
@@ -16,26 +15,14 @@ public class Exe01 {
 		for(int i = 0; i < numeros.length; i ++) {
 			if(numeroProcurado == numeros[i]) {
 				System.out.println("O número " + numeroProcurado + " está na posição " + i);
-				encontrado = true;
 				break;
-			}else {
-				encontrado = false;
 			}
 			
-			if(i == numeros.length - 1 && encontrado == false && numeroProcurado != numeros[i]) {
+			if(i == numeros.length - 1 && numeroProcurado != numeros[i]) {
 				System.out.println("O número " + numeroProcurado + " não foi encontrado ");
 			}
 		}
 		
-		/*
-		 for(int indice = 0; indice < vetor.length; indice++){
-		 	if(vetor[indice] == numero)
-		 	resultado = indice;
-		  }
-		  if(resultado == 0) - imprimir numero não localizado
-		  else - foi localizado
-		 
-		 */
 		
 	}
 
