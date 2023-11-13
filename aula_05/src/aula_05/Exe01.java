@@ -8,6 +8,7 @@ public class Exe01 {
 	public static void main(String[] args) {
 		int[] numeros = { 2, 5, 1, 3, 4, 9, 7, 8, 10, 6 };
 		int numeroProcurado;
+		boolean encontrado = true;
 		
 		System.out.print("Digite o número que você deseja encontrar: ");
 		numeroProcurado = leia.nextInt();
@@ -15,8 +16,17 @@ public class Exe01 {
 		for(int i = 0; i < numeros.length; i ++) {
 			if(numeroProcurado == numeros[i]) {
 				System.out.println("O número " + numeroProcurado + " está na posição " + i);
+				encontrado = true;
+				break;
+			}else {
+				encontrado = false;
+			}
+			
+			if(i == numeros.length - 1 && encontrado == false && numeroProcurado != numeros[i]) {
+				System.out.println("O número " + numeroProcurado + " não foi encontrado ");
 			}
 		}
+		
 	}
 
 }
