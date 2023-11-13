@@ -12,7 +12,7 @@ public class Exe02 {
 		int[] impares = new int [5];
 		int[] pares = new int [10];
 		int leitura = 0, contadorImpares = 0, contadorPares = 0;
-		float soma = 0.00f, media;
+		float soma = 0.0f, media;
 		
 		
 		while(leitura < numerosInteiros.length) {
