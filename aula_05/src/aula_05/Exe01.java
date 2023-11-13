@@ -27,6 +27,16 @@ public class Exe01 {
 			}
 		}
 		
+		/*
+		 for(int indice = 0; indice < vetor.length; indice++){
+		 	if(vetor[indice] == numero)
+		 	resultado = indice;
+		  }
+		  if(resultado == 0) - imprimir numero não localizado
+		  else - foi localizado
+		 
+		 */
+		
 	}
 
 }
