@@ -38,8 +38,13 @@ public class TestaArray {
 		System.out.println("\nMaior elemento da lista: " + Collections.min(notas));
 				
 		// Limpa a lista
-		notas.clear();
-		System.out.println("\nA lista está vazia: " + notas.toString());
+		// notas.clear();
+		// System.out.println("\nA lista está vazia: " + notas.toString());
+		
+		System.out.println(("Posição do elemento 7.0: " + notas.indexOf(7.0)));
+		System.out.println("Elemento na posição 0: " + notas.get(0));
+		
+		notas.forEach(System.out::println); // forma simplificada de fazer o forEach (el : els)
 		
 	}
 }
