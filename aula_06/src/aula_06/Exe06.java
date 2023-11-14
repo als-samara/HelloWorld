@@ -27,7 +27,7 @@ public class Exe06 {
 				if (pilha.isEmpty()) {
 					System.out.println("A pilha está vazia!\n");
 				} else {
-					System.out.println("Lista de Livros na Pilha:: " + pilha + "\n");
+					System.out.println("Lista de Livros na Pilha: " + pilha + "\n");
 				}
 				break;
 			case 3:
