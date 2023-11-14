@@ -19,7 +19,8 @@ public class Exe06 {
 			switch (opcao) {
 			case 1:
 				System.out.println("Digite o nome do livro: ");
-				nomeLivro = leia.next();
+				leia.skip("\\R");
+				nomeLivro = leia.nextLine();
 				pilha.add(nomeLivro);
 				System.out.println("Pilha: " + pilha + "\nLivro adicionado!\n");
 				break;
