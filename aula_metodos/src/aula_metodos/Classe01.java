@@ -1,6 +1,7 @@
 package aula_metodos;
 
 public class Classe01 {
+
 	public static void metodoPublico01() {
 		System.out.println("Método Público da Classe 01");
 	}
@@ -16,4 +17,6 @@ public class Classe01 {
 	private static void metodoPrivado01() {
 		System.out.println("Método Privado da Classe 01");
 	}
+	
+	
 }
