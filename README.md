@@ -45,8 +45,6 @@ Explore os diretórios para acessar as aulas, os exercícios e o projeto Spring.
 - Java 17
 - SpringToolSuite 3.2.0
 
-## Como contribuir
-
 ## Como Contribuir
 
 Se você gostaria de contribuir para este projeto, siga estas etapas:
@@ -65,8 +63,8 @@ Se você gostaria de contribuir para este projeto, siga estas etapas:
    ```
 6. Abra um pull request neste repositório para revisão.
 
-### Outros Repositórios
-Como uma programadora completamente apaixonada pelo que faço, já desenvolvi diversos outros projetos em Java e utilizando outras tecnologias,como o Spring Boot e suas funcionalidades e bancos de dados relacionais, como o MySQL.
+### Vá além
+Como uma programadora completamente apaixonada pelo que faço, já desenvolvi diversos outros projetos em Java e utilizando outras tecnologias,como o Spring Boot e suas funcionalidades e bancos de dados relacionais, como o MySQL, HTML, CSS e JavaScript.
 Não deixe de conferir meus outros projetos Back-End, Front-End e Full-Stack em:<br>
 
 [![Repos](https://img.shields.io/badge/My%20others%20Repositories-purple)](https://github.com/als-samara?tab=repositories)
